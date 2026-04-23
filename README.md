@@ -1,3 +1,4 @@
+#依旧希望大佬支持，给予意见
 # 🌊 COMSOL AI Simulation System
 
 > 用自然语言描述，自动生成并运行 COMSOL 6.3 流场 / 声场仿真
