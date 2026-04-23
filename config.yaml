@@ -1,0 +1,23 @@
+matlab:
+  # Path to matlab.exe — update if not in system PATH
+  exe_path: "matlab.exe"
+  # Path to COMSOL LiveLink mli folder
+  comsol_mli_path: "C:\\Program Files\\COMSOL\\COMSOL63\\Multiphysics\\mli"
+  # COMSOL server port (default 2036)
+  comsol_server_port: 2036
+  # Timeout in seconds for MATLAB execution
+  timeout: 600
+
+comsol:
+  # Path to comsolserver.exe — set if you want Python to auto-start COMSOL server
+  server_exe: "C:\\Program Files\\COMSOL\\COMSOL63\\Multiphysics\\bin\\win64\\comsolserver.exe"
+  # Auto-start COMSOL server before MATLAB? (true/false)
+  auto_start_server: false
+
+llm:
+  provider: "gemini"          # currently only "gemini" supported
+  model: "gemini-1.5-flash"
+  temperature: 0.1
+
+output:
+  dir: "output"
